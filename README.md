@@ -1,7 +1,6 @@
 # Tumour immune rejection triggered by activation of a2-adrenergic receptors
 Analyses supporting the article "Tumour immune rejection triggered by activation of a2-adrenergic receptors"
 
-
 ## single-cell RNA sequencing
 Placeholder
 ### Dependencies
@@ -10,7 +9,22 @@ Placeholder
 
 
 ## RNA sequencing
-Placeholder
+9 bulk samples of mouse (biological triplicates) were analyses in a reference design, using WT-control as reference.
+The follow sample identifiers were present:
+
+
+ ID | Type | Treatment | SampleGroup
+--- | --- | --- | ---
+964-1	| WT	| Clonidine	| WT-Clonidine
+964-2	| WT	| Clonidine	| WT-Clonidine
+964-3	| WT	| Clonidine	| WT-Clonidine
+964-4	| WT	| Control	| 	WT-Control
+964-5	| WT	| Control	| WT-Control
+964-6	| WT	| Control	| WT-Control
+964-13	| KO	| Control	| KO-Control
+964-14	| KO	| Control	| KO-Control
+964-15	| KO	| Control	| KO-Control
+
 ### Dependencies
 
 ### Data sources
