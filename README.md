@@ -25,14 +25,38 @@ The follow sample identifiers were present:
 964-14	| KO	| Control	| KO-Control
 964-15	| KO	| Control	| KO-Control
 
-Raw data has been uploaded on GEO under the accession GSExxxxx
+Samples were processed on a Windows machine, using Ubuntu 20.02 through WSL2.
+
+
+```Running trim_galore
+find  path_2_fastqfiles  -name "*_1.fastq.gz" | cut -d "_" -f1 | parallel -j 40 trim_galore --illumina --paired --fastqc -o trim_galore/ {}\_1.fastq.gz {}\_2.fastq.gz
+```
+
+A pre-built index file for mouse GRCm38.96 was downloaded from https://github.com/pachterlab/kallisto-transcriptome-indices/releases
+Subsequently, all paired fastq files were mapped with (default settings):
+
+```Running Kallisto
+kallisto quant -i mousereferencefile -o output folder -t 60 fastq1.fastq fastq2.fastq
+```
+
+
+
+
+
+Raw data has been uploaded on GEO under the accession GSExxxxx. Quantification results by Kallisto can be found in the RNAseq/Data folder.
 
 ### Used versions
+
 AnnotationDBI 1.52.0
+
 Apleglm 1.12.0
+
 DESeq 1.30.1
+
 GenomicFeatures 1.42.3
+
 tximport 1.18.0
+
 
 ### Data sources
 
