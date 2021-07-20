@@ -21,7 +21,18 @@ Placeholder
 Script to generate the Kaplan-Meier curves provided as Supplementary figure 4D.
 Overall survival (OS) obtained from the Xena database was matched to the processed data from the TCGA consortium for the paper "The immune landscape of cancer".
 
-### Dependencies
+### Versions used
+
+• lifelines 0.25.6
+
+• matplotlib 3.2.1
+
+• numpy 1.21.0
+
+• pandas 1.1.5
+
+• seaborn 0.11.1 
+
 
 
 ### Data sources
