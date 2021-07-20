@@ -4,8 +4,12 @@ Analyses supporting the article "Tumour immune rejection triggered by activation
 ## single-cell RNA sequencing
 Placeholder
 ### Dependencies
+Placeholder
 
 ### Data sources
+Placeholder
+
+
 
 
 ## RNA sequencing
@@ -58,7 +62,6 @@ GenomicFeatures 1.42.3
 tximport 1.18.0
 
 
-### Data sources
 
 
 ## Survival analysis
