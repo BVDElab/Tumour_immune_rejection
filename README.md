@@ -31,7 +31,7 @@ Cancer immune atlas (Thorsson et al., 2018: https://www.sciencedirect.com/scienc
 
 • RNA (final): https://api.gdc.cancer.gov/data/3586c0da-64d0-4b74-a449-5ff4d9136611
 
-Xena (Goldman et al., 2020: https://doi.org/10.1038/s41587-020-0546-8)
+Xena (Goldman et al., 2020: https://doi.org/10.1038/s41587-020-0546-8):
 
 • Phenotype data: https://toil-xena-hub.s3.us-east-1.amazonaws.com/download/TcgaTargetGTEX_phenotype.txt.gz
 
