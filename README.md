@@ -25,5 +25,8 @@ Overall survival (OS) obtained from the Xena database was matched to the process
 
 
 ### Data sources
+Place the following files in the corresponding "Data" folder:
+• RNA (final): https://api.gdc.cancer.gov/data/3586c0da-64d0-4b74-a449-5ff4d9136611
+• Survival: https://xenabrowser.net/datapages/?dataset=TCGA_survival_data&host=https%3A%2F%2Ftoil.xenahubs.net&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443
 
 
