@@ -25,7 +25,14 @@ The follow sample identifiers were present:
 964-14	| KO	| Control	| KO-Control
 964-15	| KO	| Control	| KO-Control
 
-### Dependencies
+Raw data has been uploaded on GEO under the accession GSExxxxx
+
+### Used versions
+AnnotationDBI 1.52.0
+Apleglm 1.12.0
+DESeq 1.30.1
+GenomicFeatures 1.42.3
+tximport 1.18.0
 
 ### Data sources
 
