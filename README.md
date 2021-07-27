@@ -25,6 +25,9 @@ The follow sample identifiers were present:
 964-4	| WT	| Control	| 	WT-Control
 964-5	| WT	| Control	| WT-Control
 964-6	| WT	| Control	| WT-Control
+964-10	| KO	| Clonidine	| KO-Treated
+964-11	| KO	| Clonidine	| KO-Treated
+964-12	| KO	| Clonidine	| KO-Treated
 964-13	| KO	| Control	| KO-Control
 964-14	| KO	| Control	| KO-Control
 964-15	| KO	| Control	| KO-Control
@@ -42,6 +45,12 @@ Subsequently, all paired fastq files were mapped with (default settings):
 ```Running Kallisto
 kallisto quant -i mousereferencefile -o output folder -t 60 fastq1.fastq fastq2.fastq
 ```
+
+To process the data and obtain the intermediate files available here, set your work directory to the folder Counts_Kallisto in "Data":
+```R set work directory
+setwd("~Your/Path/To/RNAseq/")
+```
+Then run the corresponding R script. It will list all files. If all corresponding count files were found, it will print "TRUE" as output.
 
 
 
