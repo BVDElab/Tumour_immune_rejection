@@ -7,19 +7,19 @@ Analyses supporting the article "Tumour immune rejection triggered by activation
 
 
 ### Dependencies
-Diffxpy 0.7.4
+diffxpy 0.7.4
 
-GSEApy 0.10.5
+gseapy 0.10.5
 
-Matplotlib 3.2.1
+matplotlib 3.2.1
 
-Numpy 1.21.0
+numpy 1.21.0
 
-Pandas 1.1.5
+pandas 1.1.5
 
-Scanpy 1.7.0
+scanpy 1.7.0
 
-Seaborn 0.11.1
+seaborn 0.11.1
 
 
 ### Data sources
