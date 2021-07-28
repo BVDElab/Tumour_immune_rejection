@@ -1,0 +1,13 @@
+{
+	"n_targets": 118489,
+	"n_bootstraps": 0,
+	"n_processed": 670596213,
+	"n_pseudoaligned": 518946923,
+	"n_unique": 179291322,
+	"p_pseudoaligned": 77.4,
+	"p_unique": 26.7,
+	"kallisto_version": "0.46.0",
+	"index_version": 10,
+	"start_time": "Wed Mar 10 13:36:45 2021",
+	"call": "kallisto quant -i /mnt/d/RNAseq/Kallisto_indexes/mus_musculus/transcriptome.idx --threads=20 -o PB01_964-6_ PB01_964-6_R1_001_val_1.fq.gz PB01_964-6_R2_001_val_2.fq.gz"
+}

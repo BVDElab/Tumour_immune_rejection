@@ -1,0 +1,13 @@
+Sample	SampleType	Drug	Pairwise	State
+964-1	WT	Clonidine	WT-Clonidine	WT-treated
+964-2	WT	Clonidine	WT-Clonidine	WT-treated
+964-3	WT	Clonidine	WT-Clonidine	WT-treated
+964-4	WT	Control	WT-Control	WT-untreated
+964-5	WT	Control	WT-Control	WT-untreated
+964-6	WT	Control	WT-Control	WT-untreated
+964-10	KO	Clonidine	KO-Clonidine	KO-treated
+964-11	KO	Clonidine	KO-Clonidine	KO-treated
+964-12	KO	Clonidine	KO-Clonidine	KO-treated
+964-13	KO	Control	KO-Control	KO-untreated
+964-14	KO	Control	KO-Control	KO-untreated
+964-15	KO	Control	KO-Control	KO-untreated
