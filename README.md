@@ -1,13 +1,29 @@
 # Tumour immune rejection triggered by activation of a2-adrenergic receptors
 Analyses supporting the article "Tumour immune rejection triggered by activation of a2-adrenergic receptors"
 
+
 ## single-cell RNA sequencing
-Placeholder
+2 samples were processed: clonidine and untreated for MC38-OVA mice with tumour. Tumour tissue was extracted and sent for sequencing. Samples were processed with Scanpy, using the external algorithm PhenoGraph for subpopulation detection. Clusters were manually annotated, differential testing was performed with wilcoxon rank sum tests implemented in Diffxpy. Enrichment analysis has been conducted with GSEApy.
+
+
 ### Dependencies
-Placeholder
+Diffxpy 0.7.4
+
+GSEApy 0.10.5
+
+Matplotlib 3.2.1
+
+Numpy 1.21.0
+
+Pandas 1.1.5
+
+Scanpy 1.7.0
+
+Seaborn 0.11.1
+
 
 ### Data sources
-Placeholder
+All datasets have been uploaded under accession GSE....
 
 
 
@@ -34,7 +50,6 @@ The follow sample identifiers were present:
 
 Samples were processed on a Windows machine, using Ubuntu 20.02 through WSL2.
 
-
 ```Running trim_galore
 find  path_2_fastqfiles  -name "*_1.fastq.gz" | cut -d "_" -f1 | parallel -j 40 trim_galore --illumina --paired --fastqc -o trim_galore/ {}\_1.fastq.gz {}\_2.fastq.gz
 ```
@@ -52,24 +67,18 @@ setwd("~Your/Path/To/RNAseq/")
 ```
 Then run the corresponding R script. It will list all files. If all corresponding count files were found, it will print "TRUE" as output.
 
-
-
-
-
 Raw data has been uploaded on GEO under the accession GSExxxxx. Quantification results by Kallisto can be found in the RNAseq/Data folder.
 
-### Used versions
 
-AnnotationDBI 1.52.0
+### Used versions
 
 Apleglm 1.12.0
 
 DESeq 1.30.1
 
-GenomicFeatures 1.42.3
-
 tximport 1.18.0
 
+TXDB Mus Musculus 3.10
 
 
 
