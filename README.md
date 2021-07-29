@@ -112,4 +112,3 @@ Cancer immune atlas (Thorsson et al., 2018): https://www.sciencedirect.com/scien
 Xena (Goldman et al., 2020): https://doi.org/10.1038/s41587-020-0546-8)
 
 • Survival: https://toil-xena-hub.s3.us-east-1.amazonaws.com/download/TCGA_survival_data
-
