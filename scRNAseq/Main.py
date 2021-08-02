@@ -136,15 +136,6 @@ mapdic = {0: "Macrophages_1", 1: "Macrophages_2", 2: "Macrophages_3", 3: "Macrop
 adata.obs["Pheno_name"] = adata.obs["pheno_leiden"].replace(mapdic)
 adata.obs["Pheno_name"].fillna("Unknown", inplace=True)
 
-for tment in set(adata.obs["treatment"]):
-    tindexes = adata.obs.loc[adata.obs["treatment"] == tment].index
-    subdata = adata[tindexes, :]
-    sc.pl.umap(subdata, color="Pheno_name", legend_loc="on data", palette=mycmap, legend_fontweight="normal")
-    plt.tight_layout()
-    sns.despine()
-    plt.savefig(tment + ".svg")
-    plt.close()
-
 mycmap = {'CD4+ T cells': sns.color_palette()[0], 'CD8+ T cells': sns.color_palette()[1],
           'Macrophages_1': "goldenrod",
           'Macrophages_2': "salmon",
@@ -163,6 +154,14 @@ sns.despine()
 plt.savefig("UMAP_celltype.svg")
 plt.close()
 
+for tment in set(adata.obs["treatment"]):
+    tindexes = adata.obs.loc[adata.obs["treatment"] == tment].index
+    subdata = adata[tindexes, :]
+    sc.pl.umap(subdata, color="Pheno_name", legend_loc="on data", palette=mycmap, legend_fontweight="normal")
+    plt.tight_layout()
+    sns.despine()
+    plt.savefig(tment + ".svg")
+    plt.close()
 
 # Piecharts
 countlist = []
