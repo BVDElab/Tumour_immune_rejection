@@ -1,12 +1,8 @@
 ## Experimental design
 
-| sample    | group | condition |
-|-----------|-------|---------|
-| untreated |       | Control |
-| treated   |       | CLD     |
-| Z1        | KO    | Control |
-| Z2        | KO    | CLD     |
-| Z3        | KO    | GBZ     |
-| Z4        | WT    | Control |
-| Z5        | WT    | GBZ     |
-| Z6        | WT    | CLD     |
+| sample    | group | condition | experiment |
+|-----------|-------|-----------|------------|
+| untreated |       | Control   | 1          |
+| treated   |       | CLD       | 1          |
+| Z4        | WT    | Control   | 2          |
+| Z6        | WT    | CLD       | 2          |
