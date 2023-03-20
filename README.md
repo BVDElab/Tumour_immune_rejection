@@ -1,6 +1,7 @@
 # Tumour immune rejection triggered by activation of a2-adrenergic receptors
 Analyses supporting the article "Tumour immune rejection triggered by activation of a2-adrenergic receptors"
 
+[![DOI](https://zenodo.org/badge/387763361.svg)](https://zenodo.org/badge/latestdoi/387763361)
 
 ## single-cell RNA sequencing
 2 samples were processed: clonidine and untreated for MC38-OVA mice with tumour. Tumour tissue was extracted and sent for sequencing. Samples were processed with Scanpy, using the external algorithm PhenoGraph for subpopulation detection. Clusters were manually annotated, differential testing was performed with wilcoxon rank sum tests implemented in Diffxpy. Enrichment analysis has been conducted with GSEApy.
@@ -102,8 +103,6 @@ Overall survival (OS) obtained from the Xena database was matched to the process
 
 • seaborn 0.11.1 
 
-
-
 ### Data sources
 Place the following files in the corresponding "Data" folder:
 
@@ -118,3 +117,5 @@ Xena (Goldman et al., 2020): https://doi.org/10.1038/s41587-020-0546-8)
 ### Code for extended figures
 
 - On Zenodo with DOI 10.5281/zenodo.7673031
+
+
